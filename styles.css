@@ -1,0 +1,30 @@
+/* Tous les textes en blanc */
+body, h1, h3, h4, h5, h6, p, a {
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(23, 136, 0);
+}
+
+.section-accueil {
+  color: white;
+}
+
+/* Cartes transparentes */
+.card {
+  font-size: 24px;
+  background-color: rgba(88, 88, 88, 0.527); /* Couleur de fond transparente */
+  color: rgb(43, 43, 43); /* Couleur du texte noir */
+  border: none; /* Pas de bordure */
+}
+
+.card-body {
+  padding: 20px; /* Espacement à l'intérieur de la carte */
+}
+
+.card-title {
+  text-decoration-line: underline;
+  color: rgb(0, 0, 0); /* Couleur du titre noir */
+  font-size: 30px;
+}
